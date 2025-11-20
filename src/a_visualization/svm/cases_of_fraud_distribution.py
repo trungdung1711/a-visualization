@@ -10,9 +10,9 @@ X, y = make_classification(
     n_features=2,
     n_redundant=0,
     n_clusters_per_class=1,
-    weights=[0.94, 0.06],
-    class_sep=1.25,
-    random_state=90,
+    weights=[0.96, 0.04],
+    class_sep=0.4,
+    random_state=17112004,
 )
 
 # 44
