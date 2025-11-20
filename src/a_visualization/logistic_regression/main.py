@@ -4,8 +4,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 
 # 2 clusters
-np.random.seed(42)
-n = 200
+np.random.seed(1711)
+n = 500
 
 class0 = np.random.randn(n // 2, 2) + np.array([-2, -2])
 class1 = np.random.randn(n // 2, 2) + np.array([2, 2])
